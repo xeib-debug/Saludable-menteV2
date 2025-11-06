@@ -152,7 +152,8 @@ main{max-width:1200px;margin:20px auto;padding:0 22px}
   gap:8px;
 }
 .card:hover {
-  transform: translateY(-10px);
+    transform: translateY(-5px);
+    box-shadow: 5px 5px 20px;
 }
 .img{height:150px;border-radius:8px;background:#eef6ee;background-size:cover;background-position:center}
 .card-row{display:flex;align-items:center;gap:12px}
