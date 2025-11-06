@@ -150,10 +150,12 @@ main{max-width:1200px;margin:20px auto;padding:0 22px}
   display:flex;
   flex-direction:column;
   gap:8px;
+  transition: transform 0.3s;
+  box-shadow: 1px 1px 5px;
 }
 .card:hover {
     transform: translateY(-5px);
-    box-shadow: 5px 5px 20px;
+    box-shadow: 1px 5px 10px;
 }
 .img{height:150px;border-radius:8px;background:#eef6ee;background-size:cover;background-position:center}
 .card-row{display:flex;align-items:center;gap:12px}
