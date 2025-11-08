@@ -340,7 +340,13 @@ main{
   color: #2E8B57;
   font-weight: 600;
   font-size: 0.9rem;
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
 }
+
 
 .receta-link:hover {
   text-decoration: underline;
@@ -520,6 +526,11 @@ footer {
   cursor: pointer;
   text-decoration: none;
 }
+
+.boton-texto:hover {
+  color: #256d45;
+  text-decoration: underline;
+}
 /* ============================= */
 /*        MODO RESPONSIVE        */
 /* ============================= */
@@ -634,9 +645,3 @@ footer {
     justify-content: center;
   }
 }
-
-.boton-texto:hover {
-  color: #256d45;
-  text-decoration: underline;
-}
-
