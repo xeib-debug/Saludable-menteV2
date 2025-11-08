@@ -335,3 +335,66 @@ footer {
   color: #256d45;
   text-decoration: underline;
 }
+/* --- AJUSTES RESPONSIVOS --- */
+@media (max-width: 768px) {
+  .nav-top {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .nav-top h1 {
+    font-size: 1.5rem;
+  }
+
+  .nav-options {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .nav-options a {
+    font-size: 0.9rem;
+  }
+
+  .btn-volver {
+    align-self: stretch;
+    text-align: center;
+    width: 100%;
+  }
+
+  main {
+    margin-top: 10px;
+    padding: 0 10px;
+  }
+
+  .productosDes h2 {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .grid {
+    grid-template-columns: 1fr; /* Cada producto ocupa todo el ancho */
+    gap: 16px;
+  }
+
+  .card {
+    border-radius: 12px;
+  }
+
+  .card-info h3 {
+    font-size: 1rem;
+  }
+
+  .card-info p {
+    font-size: 0.85rem;
+  }
+
+  .price {
+    font-size: 0.95rem;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 12px;
+  }
+}
